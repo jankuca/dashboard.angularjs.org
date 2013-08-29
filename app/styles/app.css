@@ -528,7 +528,7 @@ body {
 
 
 .notification-active {
-  animation: notification-blink 2s linear infinite;
+  animation: notification-blink 2.2s linear infinite;
 }
 
 @keyframes notification-blink {
@@ -538,7 +538,10 @@ body {
   10% {
     opacity: 1;
   }
-  40% {
+  20% {
+    opacity: 1;
+  }
+  50% {
     opacity: 0;
   }
   100% {
